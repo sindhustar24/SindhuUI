@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .inp {
+            width:30px;height:30px;margin-bottom: 3px;
+        }
+        .inp2{
+            width:132px;height: 30px; margin-bottom: 3px;
+        }
+        .inp:hover{
+            background: cadetblue;
+        }
+    </style>
+
+    <script>
+        function disp(val){
+
+            if(val!='=') {
+                document.getElementById("a").value = document.getElementById("a").value + val;
+            }
+            else{
+                document.getElementById("a").value= eval(document.getElementById("a").value);
+            }
+
+
+        }
+        function clr(){
+            document.getElementById("a").value='';
+        }
+
+        function cls(){
+            window.close();
+        }
+    </script>
+</head>
+<body>
+
+<input type="text" id="a" class="inp2">
+<br>
+
+<input type="submit" value="1" onclick="disp(1)" class="inp">
+<input type="submit" value="2" onclick="disp(2)" class="inp">
+<input type="submit" value="3" onclick="disp(3)" class="inp">
+<input type="submit" value="+" onclick="disp('+')" class="inp"><br>
+<input type="submit" value="4" onclick="disp(4)" class="inp">
+<input type="submit" value="5" onclick="disp(5)" class="inp">
+<input type="submit" value="6" onclick="disp(6)" class="inp">
+<input type="submit" value="-" onclick="disp('-')" class="inp"><br>
+<input type="submit" value="7" onclick="disp(7)" class="inp">
+<input type="submit" value="8" onclick="disp(8)" class="inp">
+<input type="submit" value="9" onclick="disp(9)" class="inp">
+<input type="submit" value="/" onclick="disp('/')" class="inp"><br>
+<input type="submit" value="0" onclick="disp(0)" class="inp">
+<input type="submit" value="c" onclick="clr()" class="inp">
+<input type="submit" value="=" onclick="disp('=')" class="inp">
+<input type="submit" value="*" onclick="disp('*')" class="inp"><br>
+<input type="submit" value="X" onclick="cls()" class="inp"><br>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        function disp(){
+            var chr=document.getElementById("data").value;
+            if(chr.length<50)
+            {
+                document.getElementById("count").innerHTML=chr.length;
+
+            }
+            else{
+                document.getElementById("count").innerHTML="over flow";
+
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+
+    <textarea id="data" onkeyup="disp()" rows="6" cols="40">
+
+    </textarea>
+<span id = "count"></span>
+</body>
+</html>

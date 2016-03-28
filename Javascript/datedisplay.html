@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function disp(){
+
+            var date=new Date();
+            document.getElementById("data").innerHTML=date.getDate()+"-"+date.getMonth()+"-"+date.getFullYear()+"-"+
+                    date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+
+        }
+        setInterval("disp()",1000);
+    </script>
+
+
+
+</head>
+<body>
+    <h3 id="data" style="width:300px;height: 40px;background: red;color:White;text-align: center;line-height: 30px"></h3>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function display() {
+            var val = document.getElementById("a").value;
+            var i=1;
+            while(i<=val){
+                document.write(i+ "<br>");
+                i++;
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="a">
+<input type="submit" value="while loop" onclick="display()">
+</body>
+</html>

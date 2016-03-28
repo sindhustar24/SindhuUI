@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function() {
+                $("#data").slideDown(2000)
+            });
+            $("#btn2").click(function(){
+                $("#data").stop();
+
+            })
+
+
+
+
+
+        })
+    </script>
+</head>
+<body>
+        <input type="submit" value="submit" id="btn1">
+        <input type="submit" value="stop" id="btn2">
+        <br>
+        <div id="data" class="head" style="width:200px;height:200px;display:none; background: blue; position: relative"></div>
+</body>
+</html>

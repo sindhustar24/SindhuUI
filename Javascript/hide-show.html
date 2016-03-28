@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#btn1").click(function() {
+                $("#image").hide(2000);
+                $("#btn2").show();
+                $("#btn1").hide();
+
+
+            });
+            $("#btn2").click(function(){
+                $("#image").show(2000);
+                $("#btn2").hide();
+                $("#btn1").show();
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+
+<input type="submit" value="hide image" id="btn1" class="inp">
+<input type="submit" value="show image" id="btn2" class="inp">
+<br>
+<img src="img/3.jpg" id="image" style="display:none">
+
+
+</body>
+</html>

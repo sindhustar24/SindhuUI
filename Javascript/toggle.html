@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#btn").click(function () {
+                $("img").toggle(2000);
+
+
+            });
+        });
+    </script>
+</head>
+<body>
+
+<input type="submit" value="show image" id="btn" class="inp">
+<br>
+<img src="img/3.jpg" id="image" style="display:none">
+
+
+</body>
+</html>

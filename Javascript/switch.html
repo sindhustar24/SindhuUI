@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        function display(){
+            var val=document.getElementById("a").value;
+            switch(val) {
+                case'a': alert("u entered vowel");
+                    break;
+                case'e':alert("u entered vowel");
+                    break;
+                case'i': alert("u entered vowel");
+                    break;
+                case'o':alert("u entered vowel");
+                    break;
+                case'u': alert("u entered vowel");
+                    break;
+                default:
+                    alert("u entered consonant");
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="a">
+<input type="submit" value="switch" onclick="display()">
+
+</body>
+</html>

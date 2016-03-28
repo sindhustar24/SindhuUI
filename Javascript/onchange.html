@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function disp(value){//display(value)
+
+
+            if (value=='AP State'){
+                document.getElementById("data").style.display='';
+                document.getElementById("data").innerHTML="AP State";
+            }
+            else if(value=='UP state'){
+                document.getElementById("data").innerHTML="UP State";
+                document.getElementById("data").style.display='';
+                document.getElementById("data").style.borderRadius=300+'px';
+
+
+            }
+            else if(value=='TS state'){
+                document.getElementById("data").innerHTML="TS State";
+                document.getElementById("data").style.display='';
+
+            }
+            else{
+                document.getElementById("data").innerHTML="Please select any state   ";
+                document.getElementById("data").style.color="red";
+                document.getElementById("data").style.display='';
+
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<select id="state" onchange="disp(this.value)">
+    <option>Select State</option>
+    <option>AP State</option>
+    <option>UP state</option>
+    <option>TS state</option>
+
+</select>
+ <div id="data" style="width:400px;height: 300px;margin:10px;padding:10px;text-align: justify;
+ border:2px solid red;border-radius: 10px;display:none;"></div>
+</body>
+</html>

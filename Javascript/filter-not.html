@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*input{float: left}
+        #div1,#div2,#div3,#div4{
+            width:20px;height:20px;background:pink;float:left; position: relative;
+        }
+        #div1{background:red;}
+        #div2{background:orange;}
+        #div3{background:yellow;}
+        #div4{background:blue;}*/
+    </style>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("input").click(function(){
+                $("p").not(".para").css("background","red","float","left");
+                $("p").not(".para").animate({width:'400px',height:'150px',fontSize:"30px"    },2000);
+
+            })
+
+        })
+
+
+
+    </script>
+</head>
+<body>
+    <input type="submit" value="submit">
+    <div class="main">
+
+        <div class="sub1">
+                <p>This is paragraph 1</p>
+                <p>This is paragraph 2</p>
+                <p>This is paragraph 3</p>
+                <p>This is paragraph 4</p>
+                <p>This is paragraph 5</p>
+                <p>This is paragraph 6</p>
+            <div class="sub2">
+                <p class="para">This is paragraph 7</p>
+                <p>This is paragraph 8</p>
+                <h4>This is heading1</h4>
+                <p>This is paragraph 9</p>
+                <p>This is paragraph 10</p>
+                <p>This is paragraph 11/p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

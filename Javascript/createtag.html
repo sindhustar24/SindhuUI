@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function disp(){
+
+            var tag=document.getElementById("tag").value;
+            var text=document.getElementById("text").value;
+            var tagData=document.createElement(tag);//<p></p>
+            var textData=document.createTextNode(text);
+            tagData.appendChild(textData);//<p>Welcome Sindhu</p>
+
+            document.getElementById("data").appendChild(tagData);
+
+        }
+    </script>
+</head>
+<body>
+    <div id="data"></div>
+    tag: <input type="text" id="tag">
+    text: <input type="text" id="text">
+    submit: <input type="submit" value="submit " onclick="disp()">
+</body>
+</html>

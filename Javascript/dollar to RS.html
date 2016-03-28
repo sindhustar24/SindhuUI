@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function display(){
+            var val1=document.getElementById("data1").value;
+            document.getElementById("data2").value=val1*60;
+
+        }
+    </script>
+</head>
+<body>
+    $ value: <input type="text" id="data1">
+    Rupees value: <input type="text" id="data2">
+
+    <input type="submit" value="convert" onclick="display()">
+</body>
+
+</html>

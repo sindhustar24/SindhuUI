@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function display(val)
+        {
+            var val1=document.getElementById("data1").value;
+            var val2=document.getElementById("data2").value;
+
+            if(val=='sum')
+            {
+                var val3=(parseInt(val1)+parseInt(val2));
+            document.getElementById("data3").value=val3;
+            }
+            else if(val=='mul')
+            {
+                var val3=(val1*val2);
+            document.getElementById("data3").value=val3;
+            }
+            else if(val=='sub')
+            {
+                var val3=(parseInt(val1)-parseInt(val2));
+            document.getElementById("data3").value=val3;
+            }
+
+            else
+                var val3=(parseInt(val1)/parseInt(val2));
+            document.getElementById("data3").value=val3;
+
+
+        }
+        display();
+    </script>
+</head>
+<body>
+
+<input type="text" id="data1">
+<input type="text" id="data2">
+<input type="text" id="data3">
+<input type="submit" value="sum" onclick="display('sum')">
+<input type="submit" value="sub" onclick="display('sub')">
+<input type="submit" value="mul" onclick="display('mul')">
+<input type="submit" value="div" onclick="display('div')">
+</body>
+</html>

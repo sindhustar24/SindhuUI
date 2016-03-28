@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        function disp(val) {
+
+            var data='Throughout history, women have been making extraordinary contributions to their families, societies and the world at large. Some are well-known and some are not, nevertheless their contributions have been always special.'
+            //document.write(data);
+        if(val=='u')
+        {
+       document.write( "<Br>"+data.toUpperCase());
+          }
+            else{
+        document.write("<Br>"+data.toLocaleLowerCase())}
+        }
+
+
+
+    </script>
+</head>
+<body>
+
+    <input type="submit" value="upper" onclick="disp('u')"><br>
+    <input type="submit" value="lower" onclick="disp('l')"><br>
+
+</body>
+</html>

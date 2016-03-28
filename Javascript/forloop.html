@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>forloop</title>
+    <script>
+
+        function display(){
+            var val=document.getElementById("a").value;
+
+            for (i=0;i<val;i++)
+            {
+                document.write(i+ "<br>");
+            }
+
+        display();
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="a">
+    <input type="submit" value="for loop" onclick="display()">
+</body>
+</html>

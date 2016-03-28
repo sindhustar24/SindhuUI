@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#btn1").click(function() {
+                $("#image").fadeIn(2000);
+
+
+            });
+            $("#btn2").click(function(){
+                $("#image").fadeOut(2000);
+
+            });$("#btn3").click(function(){
+                $("#image").fadeToggle(2000);
+
+            });
+
+                $("#btn4").click(function(){
+                                $("#image").fadeTo(2000,"0.3");
+
+                            });
+
+
+        });
+    </script>
+</head>
+<body>
+
+<input type="submit" value="fadein" id="btn1" class="inp">
+<input type="submit" value="fadeout" id="btn2" class="inp">
+<input type="submit" value="fadeToggle" id="btn3" class="inp">
+<input type="submit" value="fadeTo" id="btn4" class="inp">
+<br>
+<img src="img/3.jpg" id="image" style="display:none">
+
+
+</body>
+</html>

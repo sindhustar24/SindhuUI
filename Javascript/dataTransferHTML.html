@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#div1").click(function() {
+                $("#data2").text("SIndhuSindhu");
+
+            });
+            $("#div2").click(function(){
+                $("#data2").html("<h1>This is run time head tag</h1>");
+
+            }); $("#div3").click(function(){
+                $("input").val("This is Run time text")
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+
+
+<div style="width:200px;height: 50px;background: yellow;line-height: 50px;font-size: 30px;
+text-align: center;float:left;margin-left: 3px" id="div1">text
+</div>
+<div style="width:200px;height: 50px;background: yellow;line-height: 50px;font-size: 30px;
+text-align: center;float:left; margin-left: 3px" id="div2">html
+</div>
+<div style="width:200px;height: 50px;background: yellow;line-height: 50px;font-size: 30px;
+text-align: center;float:left;margin-left: 3px " id="div3">input tag</div>
+<div id="data2" style="clear: both" >
+    <br>
+
+<h1>This is Head</h1>
+    </div>
+<br>
+<input type="text" value="">
+
+
+</body>
+</html>

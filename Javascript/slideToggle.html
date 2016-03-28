@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="JS/jquery-1.12.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#div1").mouseover(function() {
+
+                $("#div2").slideToggle(500);
+
+
+            });
+            $("#div1").mouseout(function() {
+
+                $("#div2").slideToggle(500);
+
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+
+
+<div style="width:400px;height: 50px;background: yellow;line-height: 50px;font-size: 30px;
+text-align: center;" id="div1">SERVICES
+</div>
+<div style="width:400px;height: 300px;background: red;display: none;" id="div2"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        function disp(){
+
+            var date=new Date();
+            var month= date.getMonth()+1
+            var h=date.getHours();//0-23
+            if(h>12) {
+                h = h - 12;
+                h = h + "PM";
+            }
+            else{
+                    h=h+"AM";
+                }
+
+
+
+            document.write("Total date : "+date+ "<br>");
+            document.write("Date :"+date.getDate()+"<br>");
+            document.write("Year :"+date.getFullYear()+"<br>");
+            document.write("Month :"+month+"<br>"); //0-11
+            document.write("Hours :"+h+"<br>");
+            document.write("Minutes :"+date.getMinutes()+"<br>");
+            document.write("Seconds:"+date.getSeconds()+"<br>");
+
+            document.write("Time :"+date.getTime()+"<br>"); // 1970 1 st jan time started
+
+
+        }
+        disp();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
