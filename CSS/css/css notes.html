@@ -1,0 +1,109 @@
+ css: cascading style sheet, it is using to add style to the html pages, (effects, colors, positions, background).
+	3types of css:
+		inline css 
+		internal css
+		external css
+	
+	inline css: writing css properties inside the open tag, using style property.
+	ex: <div style="width:300px;height:20%;background:red;"></div>
+	
+	internal css:writing css properties in <style> tag , keep <style> tag Inside <head> tag.
+	<head>
+		<style>
+			div{width:9px;height;29px;}
+		</style>
+	</head>
+	
+	selectors: selectors are using to identify the tag uniquely
+		id , class
+		# followed by id name using to write css properties for id .
+		. followed by class name using to write css properties for class.
+		we can create more than one class for each tag,but we can create only one id for each tag.
+		
+	
+	Properties:
+		width:200px or 70%;
+		height:300px or 20%;
+		
+	background:	
+		background:red;
+		background:#0059B3;
+		background:rgb(255,76,76);
+		
+		background:url(1.jpg);
+		background-size:300px 300px;
+		background-size:100% 100%;
+		
+		background-repeat:no-repeat or repeat-x or repeat-y or repeat-xy;
+		
+		background-position:20px 30px | top left | top cetner | top right | center center | center left| center right | bottom Left | bottom right | bottom center | -30px -30px;
+		
+	border:3px solid #232323;
+	border:3px dashed #232323;
+	border:3px dotted #232323;
+	border-right:3px dotted #232323;
+	border-left:3px dotted #232323;
+	border-bottom:3px dotted #232323;
+	border-tom:3px dotted #232323;
+	
+	border-radius:10px;
+	border-radius:Xpx;// if width=height=border-radius=Xpx then you will get circle.
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	
+font:
+	font-size:20px or 20%; to increase or decrease text size.	
+	font-family:verdana or timesnewroman or cursive or aharoni
+	font-style:italic or normal;
+	font-weight:bold or 100 to 900;
+	font-variant:small-caps or normal;
+		small-caps: it will convert small letters into caps and capital letters into big size capitals
+	
+text:
+	color:red or #232323 or rgb(3,3,3);
+	text-align:center or left or right or justify;
+	text-transform:uppercase or lowercase or capitalize;
+	text-indent:40px;//indentation
+	text-decoration:none or overline or line-through or underline;
+	line-height:20px;// line height of the text, 
+	vertical-align:super or sub or 10px or -10px;
+	
+padding://to add spaces inside the tag.
+	padding:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding:20px 30px;// 20px for top & bottom, 30px for left & right;
+
+margin://to add spaces outside the tag.
+	margin:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin:20px 30px;//20px top & bottom, 30px for left & right.
+	margin:0px auto;//to keep the tag in the center.
+	
+float:left or right or none;
+	left://aligned tags from left to right.
+	right://aligned tags from right ot left.
+	
+	Note: if you add fload for inline elements, then we can give width and height for inline elements.
+	
+clear: both or left or right or none;
+		both: it will switch off float property;
+		none: it will switch on float property;
+		
+display:inline or block or none;
+			inline: converting block element to inline element.
+			block:converting inline element to block element.
+			none: to hiding the tag, it will not consume spaces;
+
+visibility:hidden or visible;
+			hidden: to hiding the tag, it will consume spaces.
+			visibile: to show the tag from the hidden tag.
+			
+			
