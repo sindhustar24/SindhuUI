@@ -1,0 +1,322 @@
+
+* {
+    margin:0px; padding :0px;
+}
+
+.main {
+    width: 1000px;
+    height: 1350px;
+    background: grey;
+    margin: 0px auto;
+}
+
+.main .slide {
+    height: 300px;
+    width: 1000px;
+    background: red url("../CSS/img/13.jpg");
+    background-size: 1000px 300px;
+
+}
+
+.slide .subslide1 {
+    height: 226px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    background: white;
+    border: 3px solid #FF0000;
+    border-radius: 10px;
+}
+
+.subslide1 h2, .subslide2 h2 {
+    text-align: center;
+    margin: 10px;
+    color: red;
+
+}
+
+.subslide1 p, .subslide2 p {
+    text-align: justify;
+    margin: 15px;
+    color: darkred;
+}
+
+.slide .subslide2 {
+    height: 226px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    background: white;
+    border: 3px solid #FF0000;
+    border-radius: 10px;
+
+}
+
+.main .subdata {
+    width: 1000px;
+    height: 400px;
+    background: white;
+}
+
+.subdata .left, .subdata .right {
+    width: 250px;
+    height: 400px;
+    background: white;
+    float: left;
+
+}
+
+.subdata .center {
+    width: 500px;
+    height: 400px;
+    background: white;
+    float: left;
+}
+
+.head {
+    width: 1000px;
+    height: 100px;
+
+    margin: 0px auto;
+    background: white;
+}
+
+.head .logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+
+.head .title {
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    float: left;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 26px;
+
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.head .icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    margin-top: 30px;
+    float: right;
+
+}
+
+.head .icon a:hover {
+    height: 70px;
+    width: 70px;
+    background: red;
+
+}
+
+/*.menu {*/
+    /*width: 1000px;*/
+    /*height: 50px;*/
+    /*background: darkblue;*/
+    /*margin: 0px auto;*/
+/*}*/
+
+/*
+.menu a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    width: 196px;
+    text-align: center;
+    background: orangered;
+    height: 50px;
+    margin-left: 3px;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bold;
+
+}*/
+
+.menu .nav{
+    list-style:none;//to take out the bullets
+}
+
+.nav li{
+    float:left;
+    width:196px;
+    color:white;
+    background:red;
+    margin-left: 3px;
+    line-height: 40px;
+    height:40px;
+    text-align: center;
+
+}
+.nav li:hover{
+    background: deepskyblue;
+}
+.nav li a{
+    color:white;
+    text-decoration: none;
+
+}
+.nav .sub {
+    position:relative;
+    z-index: 1;
+    visibility:hidden;
+    left:-3px
+}
+.nav li:hover .sub{
+    visibility:visible;
+
+}
+.sub li{
+border:2px solid white;
+
+}
+.sub .sub2{
+    visibility:hidden;
+
+}
+.sub  li:hover .sub2{
+    visibility: visible;
+    position: relative;
+    left:194px;
+    top:-40px;
+}
+/*.main a:hover {
+
+    font-weight: normal;
+
+
+}*/
+
+.left a {
+    display:block;
+    height:40px;
+    background:white url(../CSS/img/button.png);
+    background-size: 352px 233px;
+    background-position: 248px -703px;
+    text-decoration: none;
+    align-content:center;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+
+.left a:hover {
+    background:orange url(../CSS/img/button.png);
+    background-size: 346px 203px;
+    background-position: -92px -53px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.center .man {
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+}
+
+.center h2 {
+    font-size: 30px;
+    float: left;
+    margin-top: 10px;
+    color: green;
+}
+
+.center h3 {
+    font-size: 25px;
+    margin-top: 3px;
+    width: 300px;
+    color: red;
+    float: left;
+
+}
+
+.center p {
+    float: left;
+    width: 480px;
+
+    text-align: justify;
+
+}
+.right{
+    background:orange !important;
+
+}
+.right marquee{
+    height: 400px;
+
+    width: 200px;
+    margin-left:25px;
+}
+marquee img{
+    width:200px;
+    height:200px;
+    margin-bottom:25px;
+}
+.footer {
+    width:1000px;
+    height:40px;
+    background: black;
+    color:white;
+    line-height:40px;
+    text-align: center;
+    margin:auto;
+
+}
+.shop{
+    height:1200px !important;
+    background:white;
+}
+.shop .product {
+    width: 310px;
+    height: 300px;
+    background: white;
+    box-shadow: 0px 0px 10px red;
+    float: left;
+    margin-left: 17.5px;
+    margin-top: 17px;
+}
+.product img{
+width:250px;
+    height: 180px;
+    display:block;
+    margin:0px auto;
+
+}
+.product h2{
+    text-align:center;
+    font-size:28px;
+    color:red;
+}
+
+.product a {
+    display: block;
+    text-align: center;
+    background: red;
+    color: white;
+    width: 200px;
+    margin: 0px auto;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.product a:hover{
+    background:blue;
+
+
+}
+}

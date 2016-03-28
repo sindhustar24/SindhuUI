@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script>
+
+            function data(val) {
+
+                if (val == 'a') {
+                    document.getElementById("insert").innerHTML = navigator.appVersion;
+                }
+                else if (val == 'l') {
+                    document.getElementById("insert").innerHTML = navigator.language;
+                    alert("check")
+
+                }
+                else {
+
+                    document.getElementById("insert").innerHTML = navigator.platform;
+                }
+
+            }
+
+
+
+    </script>
+</head>
+<body>
+
+<input type="submit" value="appVersion" onclick="data('a')">
+<input type="submit" value="language" onclick="data('l')">
+<input type="submit" value="OS" onclick="data('o')">
+
+<h2 id="insert"></h2>
+</body>
+
+</html>

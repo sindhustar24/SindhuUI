@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+    </style>
+
+</head>
+<body>
+<fieldset style width:500px>
+    <legend>Register</legend>
+    <form meathod="post" action="3table.html"  name="register">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" value="" id="Name" name="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email: </td>
+                <td>
+                    <input type="text" value=""  id="Email" name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" id="pwd" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile :</td>
+                <td>
+                    <input type="text" id="mobile" name="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Message:</td>
+                <td>
+                    <textarea id="msg" name="msg" rows="7" cols="30" maxlength="20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+
+                </td>
+                <td>Male <input type="radio" name="gender" value="male" checked>
+                    Female<input type="radio" name="gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+
+                </td>
+                <td>Cricket <input type="checkbox" id="Cricket" name="cricket" value="cricket" >
+                    Carrom<input type="checkbox" id="carroms" name="carroms" value="caroms">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    State
+                </td>
+                <td>
+                    <select id="state" name="state" >
+                        <option>Select state</option>
+                        <option>UP state</option>
+                        <option>AP state</option>
+                        <option>TS state</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+
+                <td>
+                    <input type="submit" value="register" onclick="validate()">
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+
+</body>
+</html>

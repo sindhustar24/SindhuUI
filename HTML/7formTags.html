@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>First Page HTML</title>
+		
+	</head>
+	<body>
+		<!--form: it is using to submit the data .
+			method="post or get"
+				post: to transfer secure data and large amount of data.
+				get: to transfer unsecure data and small amount of data.
+			action="destianation page"	
+			name="form name"
+			form contains fields tags which are using to submit the data.
+		-->
+		<fieldset style="width:500px;">
+			<legend>Register</legend>
+		<form method="post" action="3table.html" name="register">
+			<table>
+				<tr>
+					<td>Name :</td> <td><input type="text" value="nava" id="name" name="name"></td>
+				</tr>
+				<tr>
+					<td>Email Data :</td><td> <input type="text" id="email" name="email"></td>
+				</tr>
+				<tr>
+					<td>Password :</td><td> <input type="password" id="pwd" name="pwd"></td>
+				</tr>
+				<tr>
+					<td>Mobile :</td><td> <input type="text" id="mobile" name="mobile"></td>
+				</tr>
+				<tr>
+					<td>Message :</td><td> <textarea id="msg" name="msg" rows="7" cols="30" maxlength="20">Test</textarea></td>
+				</tr>
+				<tr>
+					<td>Gender :</td><td> Male <input type="radio" name="gender" value="male" checked> Female <input type="radio" name="gender" value="female"></td>
+				</tr>
+				<tr>
+					<td>Hobbies :</td><td> Cricket <input type="checkbox" id="crik" name="crik" value="cricket"> Carroms <input type="checkbox" id="carm" name="carm" value="carroms"></td>
+				</tr>
+				<tr>
+					<td>State :</td>
+					<td> 
+						<select multiple id="state" name="state">
+							<option>Select State</option>
+							<option>AP State</option>
+							<option>UP State</option>
+							<option>TS State</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>File :</td>
+					<td> 
+						<input type="file" id="file" name="file" multiple>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="reset" value="reset"></td>
+					<td> 
+						<input type="submit" value="Register">
+					</td>
+				</tr>
+				
+				
+				
+			</table>
+		</form>
+		</fieldset>
+	</body>
+</html> 
