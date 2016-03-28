@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TCSproject</title>
+    <style>
+        * {
+            margin:0px; padding :0px;
+        }
+
+        .main {
+            width: 1000px;
+            height: 800px;
+            background: grey;
+            margin: 0px auto;
+        }
+
+        .main .slide {
+            height: 300px;
+            width: 1000px;
+            background: red url("../CSS/img/13.jpg");
+            background-size: 1000px 300px;
+
+        }
+
+        .slide .subslide1 {
+            height: 226px;
+            width: 300px;
+            margin-left: 10px;
+            margin-top: 10px;
+            float: left;
+            background: white;
+            border: 3px solid #FF0000;
+            border-radius: 10px;
+        }
+
+        .subslide1 h2, .subslide2 h2 {
+            text-align: center;
+            margin: 10px;
+            color: red;
+
+        }
+
+        .subslide1 p, .subslide2 p {
+            text-align: justify;
+            margin: 15px;
+            color: darkred;
+        }
+
+        .slide .subslide2 {
+            height: 226px;
+            width: 300px;
+            margin-right: 10px;
+            margin-top: 10px;
+            float: right;
+            background: white;
+            border: 3px solid #FF0000;
+            border-radius: 10px;
+
+        }
+
+        .main .subdata {
+            width: 1000px;
+            height: 400px;
+            background: white;
+        }
+
+        .subdata .left, .subdata .right {
+            width: 250px;
+            height: 400px;
+            background: orange;
+            float: left;
+
+        }
+
+        .subdata .center {
+            width: 500px;
+            height: 400px;
+            background: white;
+            float: left;
+        }
+
+        .head {
+            width: 1000px;
+            height: 100px;
+
+            margin: 0px auto;
+            background: white;
+        }
+
+        .head .logo {
+            width: 100px;
+            height: 100px;
+            float: left;
+
+        }
+
+        .head .title {
+            width: 200px;
+            height: 50px;
+            margin: 0px;
+            float: left;
+            padding: 5px 15px;
+            color: white;
+            margin-top: 26px;
+
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+
+        .head .icon {
+            height: 50px;
+            width: 50px;
+            margin-right: 8px;
+            margin-top: 30px;
+            float: right;
+
+        }
+
+        .head .icon a:hover {
+            height: 70px;
+            width: 70px;
+            background: red;
+
+        }
+
+        .menu {
+            width: 1000px;
+            height: 50px;
+            background: darkblue;
+            margin: 0px auto;
+        }
+
+        .menu a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            width: 196px;
+            text-align: center;
+            background: orangered;
+            height: 50px;
+            margin-left: 3px;
+            line-height: 2;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        .main a:hover {
+            background: orange;
+            font-weight: normal;
+
+        }
+
+        .left a {
+            display:block;
+            height:40px;
+            background:orange url(../CSS/img/button.png);
+            background-size: 268px 231px;
+            background-position:200px -699px;
+            align-content:center;
+
+
+        }
+
+        .left a:hover {
+            background:orange url(../CSS/img/button.png);
+            background-size: 346px 203px;
+            background-position: -92px -53px;
+            font-size: 20px;
+            font-weight: normal;
+
+        }
+
+        .center .man {
+            margin-top: 10px;
+            height: 180px;
+            float: left;
+        }
+
+        .center h2 {
+            font-size: 30px;
+            float: left;
+            margin-top: 10px;
+            color: green;
+        }
+
+        .center h3 {
+            font-size: 25px;
+            margin-top: 3px;
+            width: 300px;
+            color: red;
+            float: left;
+
+        }
+
+        .center p {
+            float: left;
+            width: 480px;
+
+            text-align: justify;
+
+        }
+        .right{
+            background:orange !important;
+
+        }
+        .right marquee{
+            height: 400px;
+
+            width: 200px;
+            margin-left:25px;
+        }
+        marquee img{
+            width:200px;
+            height:200px;
+            margin-bottom:25px;
+        }
+        .footer {
+            width:1000px;
+            height:40px;
+            background: black;
+            color:white;
+            line-height:40px;
+            text-align: center;
+            margin:auto;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="main">
+
+    <div class="head">
+        <img src="../CSS/img/logo.jpg" class="logo">
+
+        <h2 class="title">TCS Consultancy</h2>
+
+        <h3 class="title">Ph:99999999999</h3>
+        <a href="http://www.facebook.com/" target="_blank"><img src="../CSS/img/f.png" class="icon"></a>
+        <a href="http://www.linkedin.com/" target="_blank"><img src="../CSS/img/i.png" class="icon"></a>
+        <a href="http://www.twitter.com/" target="_blank"><img src="../CSS/img/t.png" class="icon"></a>
+
+    </div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">About us</a>
+        <a href="#">Career</a>
+        <a href="#">Contact Us</a>
+
+        <div class="slide">
+            <div class="subslide1">
+                <h2> TCS </h2>
+
+                <p>
+                    Tata Consultancy Services Limited is an Indian multinational information technology service,
+                    consulting and business solutions company headquartered in Mumbai, Maharashtra. It is a subsidiary
+                    of the Tata Group and operates in 46 countries.
+                </p>
+            </div>
+
+            <div class="subslide2">
+                <h2> Software Development </h2>
+
+                <p>
+                    In this era of unprecedented change, Social, Mobile, Big Data and Cloud are disrupting traditional
+                    business operations. Organizations face both increased uncertainty and extraordinary opportunities.
+                    TCS’ DS&S Group offers integrated solutions that help companies thrives..
+
+                </p>
+
+            </div>
+
+        </div>
+        <div class="subdata">
+            <div class="left">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+
+                <a href="#">About Us</a>
+                <a href="#">Career</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="center">
+                <img src="../CSS/img/1.jpg" class="man">
+
+                <h2>About Me :</h2>
+
+                <h3>Name:Sindhu</h3>
+
+                <h3>Email:Sindhu@gmail.com</h3>
+
+                <h3>Mobile no:9989898898</h3>
+
+                <p>Tata Consultancy Services Limited is an Indian multinational information technology service,
+                    consulting and business solutions company headquartered in Mumbai, Maharashtra. It is a subsidiary
+                    of the Tata Group and operates in 46 countries.</p>
+
+            </div>
+            <div class="right">
+                <marquee direction="up">
+                    <img src="../CSS/img/4.jpg">
+                    <img src="../CSS/img/5.jpeg">
+                    <img src="../CSS/img/6.jpg">
+                    <img src="../CSS/img/7.jpg">
+                    <img src="../CSS/img/8.jpg">
+                    <img src="../CSS/img/9.jpg">
+                    <img src="../CSS/img/10.jpg">
+                </marquee>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+        <div class="footer">&copy;TCS Pvt Ltd
+
+        </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+			*{
+			margin:0px;padding:0px;
+			}
+			.main{
+			width:1000px;height:auto;background:#BDBDAE;margin:0px auto;
+			}
+			.head{
+			width:1000px;height:100px;background:#FFFFFF;
+			}
+			.menu{
+			width:1000px;height:40px;background:#002DB3;
+			}
+			.menu .nav{
+			list-style:none;
+			}
+			.nav li{
+			float:left;color:white;width:196px;background:#FF9800;
+			margin-left:3px;height:40px;text-align:center;line-height:40px;
+			}
+			.nav li:hover{
+			background:#59B300;
+			}
+			.nav li a{
+			color:white;text-decoration:none;
+			}
+			.nav .sub{
+			position:relative;z-index:1;visibility:hidden;left:-3px;
+			}
+			.nav li:hover .sub{
+			visibility:visible;
+			
+			}		
+			.sub li{
+			border-bottom:2px solid white;
+			}
+			.sub .sub2{
+			visibility:hidden;position:relative;left:194px;top:-40px;
+			}
+			.sub li:hover .sub2{
+			visibility:visible;
+			}
+			.sub2 li{
+			border-left:2px solid white;
+			}
+			
+			.head .logo{
+			width:100px;height:100px;float:left;
+			}
+			.head .title{
+			margin:0px;float:left;background:#0086B3;color:white;padding:5px 15px;margin-top:27px;margin-left:15px;
+			}
+			.head .icon{
+			width:40px;float:right;margin-top:27px;margin-right:5px;
+			}
+			.main .slider{
+			width:1000px;height:300px;background:red url(img/13.jpg);background-size:1000px 300px;
+			}
+			.main .services{
+			background:url(img/15.jpg);background-size:100% 100%;
+			}
+			.slider .subData{
+			width:300px;height:250px;background:#FDFDFF;margin-top:25px;float:left;border-radius:5px;margin-left:10px;
+			}
+			.slider .subData2{
+			width:300px;height:250px;background:#FDFDFF;margin-top:25px;float:right;border-radius:5px;margin-right:10px;
+			}
+			
+			.subData h2,.subData2 h2{
+			text-align:center;margin-top:10px;color:green;
+			}
+			.subData p,.subData2 p{
+			text-align:justify;margin:10px;
+			}
+			.main .content{
+			width:1000px;height:400px; background:#EEEEEE;
+			}
+			.content .left,.content .right{
+			width:250px;height:400px;background:#EEEEEE;float:left;
+			}
+			.content .center{
+			width:500px;height:400px;background:#FFFFFF;float:left;
+			}
+			.content .servicesCont
+			{
+			width:750px;height:400px;background:#DFDFD0;float:left;
+			}
+			.servicesCont .service{
+			width:730px;height:120px;background:#ffffff;margin:0px auto;margin-top:10px;
+			}
+			.service img{
+			width:120px;height:120px;margin-left:10px;float:left;
+			}
+			.service h2{
+			float:left;margin-left:10px;margin-top:10px;
+			}
+			.service p{
+			float:left;width:580px;text-align:justify;margin-left:10px;margin-top:5px;
+			}
+			
+			
+			.left a{
+			display:block;height:40px;background:#323232 url(img/button.png);color:white;margin-bottom:3px;    background-size: 346px 203px;
+    background-position: -92px -1px;text-align:center;line-height:40px;text-decoration:none;
+			margin-top:3px;
+			}
+			.left a:hover{
+			background:url(img/button.png);background-size: 346px 203px;
+    background-position: -92px -53px;font-size:20px;
+			}
+			.center .man{
+			margin-top:10px;height:180px;float:left;
+			}
+			.center h2{
+			font-size:30px;float:left;margin-top:10px;color:green;
+			}
+			.center h3{
+			float:left;width:310px;margin-top:15px;font-size:22px;
+			
+			}
+			.center p{
+			float:left;margin:10px;text-align:justify;
+			}
+			.right marquee{
+			height:400px;width:200px;margin-left:25px;
+		
+			}
+			marquee img{
+			width:200px;height:200px;margin-bottom:25px;
+			}
+			.right{
+			background:#86B300 !important;
+			}
+			.footer{
+			width:1000px;height:40px;background:#323232;color:white;text-align:center;line-height:40px;
+			}
+			.shop{
+			height:965px !important;
+			}
+			.shop .product{
+			width:310px;
+			height:300px;
+			background:white;
+			box-shadow:0px 0px 10px green;
+			float:left;
+			margin-left:17.5px;
+			margin-top:17px;
+			}
+			.product img{
+			width:200px;
+			height:180px;
+			display:block;
+			margin:0px auto;
+			
+			}
+			.product h2{
+			text-align:center;font-size:28px;color:green;
+			}
+			.product a{
+			display:block;
+			text-align:center;
+			background:#0059B3;
+			width:150px;
+			font-size:20px;
+			margin:0px auto;
+			color:white;
+			height:40px;line-height:40px;
+			text-decoration:none;
+			border-radius:10px;
+			margin-top:20px;
+			}
+			.product a:hover{
+			background:orange;
+			}
+			
+			.center table{
+			margin:30px;
+			}
+			.center .inp1{
+			width:250px;height:35px;margin-bottom:5px;font-size:20px;color:gray;border:1px solid green;border-radius:8px;
+			}
+			.center .inp2{
+			width:250px;height:100px;margin-bottom:5px;font-size:20px;color:gray;border:1px solid green;border-radius:8px;
+			}
+			address{
+			color:white;text-align:left;margin:20px;letter-spacing:2px;line-height:30px;font-size:20px;
+			}
